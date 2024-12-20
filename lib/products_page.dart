@@ -30,9 +30,9 @@ class ProductListPage extends StatelessWidget {
                 margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                 child: ListTile(
                   leading: Image.network(
-                    product['image'], // Product image URL
-                    height: 60,
-                    width: 60,
+                    product['image'],
+                    height: 80,
+                    width: 80,
                     fit: BoxFit.fitHeight,
                   ),
                   title: Text(
